@@ -108,7 +108,7 @@ class Game {
                 Final Score: 
                 P1: ${this.player1.score} | P2: ${this.player2.score}
             `);
-        } else if(this.player1.score > this.player2.score){
+        } else if(this.player1.score < this.player2.score){
             console.log(`
                 Player 2 wins!!!
                 Final Score: 
